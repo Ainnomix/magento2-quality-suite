@@ -17,9 +17,11 @@
         "magento2"
     ],
     "require": {
-        "phpunit/phpunit": "~6.2",
-        "pdepend/pdepend": "~2.1",
-        "ainnomix/magento2-quality-phpmd": "~1.0",
-        "ainnomix/magento2-quality-phpcs": "~1.0"
+        "magento/magento-coding-standard": "~4.0.0",
+        "phpstan/phpstan": "@stable",
+        "phpunit/phpunit": "~6.5",
+        "sebastian/phpcpd": "~3.0.0",
+        "squizlabs/php_codesniffer": "~3.4.0",
+        "ainnomix/magento2-quality-phpmd": "~1.0"
     }
 }
